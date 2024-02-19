@@ -141,14 +141,14 @@ li.switch-display {
 
 .quote {
     display: flex;
-    color: #ffffc2;
+    color: #e1c2ff;
     align-items: center;
     width: max-content;
     height: 30px;
     align-items: center;
     font-weight: 500;
     font-size: 1rem;
-    animation: slide 15s normal linear infinite;
+    animation: slide 20s normal linear infinite;
     gap: 10rem;
 }
 
