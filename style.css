@@ -219,6 +219,8 @@ li.switch-display {
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0;
 }
 
 .contact-title {
