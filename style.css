@@ -4,11 +4,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
-    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
     background-color: #fff;
@@ -136,7 +136,7 @@ li.switch-display {
     background-color: #000;
     color: #ddd;
     padding: 1rem;
-    height: 30px;
+    height: 60px;
 }
 
 .quote {
@@ -169,7 +169,7 @@ li.switch-display {
     justify-content: center;
     align-items: center;
     margin: 0 auto 2rem;
-    width: 200px;
+    width: 90%;
     padding: 1.3rem;
     border-radius: 1rem;
     background-color: #e8e8e8;
@@ -191,7 +191,7 @@ li.switch-display {
 }
 
 .img-depoimento {
-    width: 200px;
+    width: calc(200px - 2.6rem);
     height: auto;
     border-radius: 1rem;
     margin: 0;
